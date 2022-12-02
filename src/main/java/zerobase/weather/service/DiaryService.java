@@ -31,7 +31,7 @@ import java.util.Map;
 public class DiaryService {
 
     //스프링 부트의 openweathermap.key라는 변수 값을 가져와서 apiKey라는 객체에 넣어주겠다
-    @Value("api실제값") // application.properties에 정의
+    @Value("abcde12345") // application.properties에 정의
     private String apiKey;
 
     private final DiaryRepository diaryRepository;
